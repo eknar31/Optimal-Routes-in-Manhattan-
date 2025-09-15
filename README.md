@@ -21,17 +21,6 @@ Due to the amount of data, I am currently still in the process of analyzing my o
 Next Steps:
 In the future, I would choose routes more wisely so the distance remained the same. I would also want to use actual average congestion data to see how that compares to node degree.
 
-Key: 
-
-POSSIBLE_ROUTES = [
-    ['10113001008', '10076001001', '10143001021'], # Route 1: Times Square -> Empire State -> MET
-    ['10113001008', '10143001021', '10076001001'], # Route 2: Times Square -> MET -> Empire State
-    ['10076001001', '10113001008', '10143001021'], # Route 3: Empire State -> Times Square -> MET
-    ['10076001001', '10143001021', '10113001008'], # Route 4: Empire State -> MET -> Times Square
-    ['10143001021', '10113001008', '10076001001'], # Route 5: MET -> Times Square -> Empire State
-    ['10143001021', '10076001001', '10113001008'], # Route 6: MET -> Empire State -> Times Square
-]
-
 Data: 
-Taxi Data: visit https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data and go to yellow_tripdata_2015-01.csv
+Taxi Data: visit https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data and go to yellow_tripdata_2015-01.csv                                                                
 Block Data: visit https://www.nyc.gov/content/planning/pages/resources/datasets/census-blocks and download "2010 Census Blocks (Clipped to Shoreline"
